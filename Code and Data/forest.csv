@@ -1,0 +1,23 @@
+﻿Variable,Nesting,Placement,Beta,VAR,Societies,SE,p value
+Pathogen Prevalence,Society,1,0.21642,0.007,86,0.08487,0.0126
+,Family,1,0.19969,0.008,20,0.08725,0.0249
+Warfare Within Polities,Society,2,0.280974,0.008,52,0.088198,0.00249
+,Family,2,0.280974,0.008,20,0.088198,0.00249
+Warfare Between Polities,Society,3,0.17742,0.007,51,0.0841,0.0401
+,Family,3,0.17742,0.007,20,0.0841,0.0401
+,Family,5,0.0496,0.008,20,0.09124,0.589
+Famine,Society,6,0.21254,0.01,85,0.09811,0.0332
+,Family,6,0.19904,0.009,20,0.09567,0.0407
+Natural Disasters,Society,7,-0.06838,0.007,79,0.08594,0.429
+,Family,7,-0.05696,0.007,20,0.08324,0.496
+Population Pressure,Society,8,0.24456,0.009,43,0.09569,0.0143
+,Family,8,0.19821,0.009,20,0.09425,0.0418
+Complexity,Society,10,0.38825,0.01,86,0.09792,0.000154
+,Family,10,0.36968,0.01,20,0.0992,0.000383
+Kinship Heterogeneity,Society,11,-0.3760425,0.004,86,0.0726149,0.00000153
+,Family,11,-0.38719,0.004,20,0.07249,0.000000811
+Intergroup Contact,Society,13,0.20979,0.007,54,0.08334,0.015
+,Family,13,0.2098,0.007,20,0.08335,0.0152
+Authoritarian Leadership,Society,14,0.22512,0.008,53,0.08928,0.0149
+,Family,14,0.22073,0.008,20,0.08755,0.0153
+Moralizing High God Belief*,Society,15,0.16919,0.007,79,0.07506,0.027

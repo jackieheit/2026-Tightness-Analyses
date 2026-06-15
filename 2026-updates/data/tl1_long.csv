@@ -1,0 +1,661 @@
+"OWC","SCCS.ID","minerva_id","eHRAF.Name","PSF.Cluster","EA.ID","Domain","TL1"
+"FX13",1,1,"Khoi",NA,"Aa03",1,3
+"FX13",1,1,"Khoi",NA,"Aa03",2,3.25
+"FX13",1,1,"Khoi",NA,"Aa03",3,3
+"FX13",1,1,"Khoi",NA,"Aa03",4,NA
+"FX13",1,1,"Khoi",NA,"Aa03",5,3
+"FX10",2,2,"San",NA,"Aa01",1,2.25
+"FX10",2,2,"San",NA,"Aa01",2,3
+"FX10",2,2,"San",NA,"Aa01",3,2
+"FX10",2,2,"San",NA,"Aa01",4,3.75
+"FX10",2,2,"San",NA,"Aa01",5,2.25
+"FQ09",4,4,"Lozi","2","Ab03",1,3.125
+"FQ09",4,4,"Lozi","2","Ab03",2,3
+"FQ09",4,4,"Lozi","2","Ab03",3,3.5
+"FQ09",4,4,"Lozi","2","Ab03",4,2.875
+"FQ09",4,4,"Lozi","2","Ab03",5,3.125
+"FP13",5,5,"Ovimbundu",NA,"Ab05",1,3.875
+"FP13",5,5,"Ovimbundu",NA,"Ab05",2,3.75
+"FP13",5,5,"Ovimbundu",NA,"Ab05",3,4
+"FP13",5,5,"Ovimbundu",NA,"Ab05",4,3
+"FP13",5,5,"Ovimbundu",NA,"Ab05",5,3.75
+"FQ05",7,7,"Bemba","3","Ac03",1,3.875
+"FQ05",7,7,"Bemba","3","Ac03",2,3.5
+"FQ05",7,7,"Bemba","3","Ac03",3,3.875
+"FQ05",7,7,"Bemba","3","Ac03",4,4
+"FQ05",7,7,"Bemba","3","Ac03",5,4
+"FN17",8,8,"Nyakyusa and Ngonde",NA,"Ad06",1,3.125
+"FN17",8,8,"Nyakyusa and Ngonde",NA,"Ad06",2,4
+"FN17",8,8,"Nyakyusa and Ngonde",NA,"Ad06",3,3.375
+"FN17",8,8,"Nyakyusa and Ngonde",NA,"Ad06",4,3
+"FN17",8,8,"Nyakyusa and Ngonde",NA,"Ad06",5,3.125
+"FK07",12,12,"Ganda","4","Ad07",1,4
+"FK07",12,12,"Ganda","4","Ad07",2,4
+"FK07",12,12,"Ganda","4","Ad07",3,4
+"FK07",12,12,"Ganda","4","Ad07",4,3.375
+"FK07",12,12,"Ganda","4","Ad07",5,4
+"FO04",13,13,"Mbuti","1","Aa05",1,1
+"FO04",13,13,"Mbuti","1","Aa05",2,2
+"FO04",13,13,"Mbuti","1","Aa05",3,2
+"FO04",13,13,"Mbuti","1","Aa05",4,3
+"FO04",13,13,"Mbuti","1","Aa05",5,1.25
+"FF57",16,16,"Tiv","9","Ah03",1,3.125
+"FF57",16,16,"Tiv","9","Ah03",2,3
+"FF57",16,16,"Tiv","9","Ah03",3,3.875
+"FF57",16,16,"Tiv","9","Ah03",4,2.5
+"FF57",16,16,"Tiv","9","Ah03",5,3
+"FE12",19,19,"Akan","6","Af03",1,4
+"FE12",19,19,"Akan","6","Af03",2,3.125
+"FE12",19,19,"Akan","6","Af03",3,4
+"FE12",19,19,"Akan","6","Af03",4,3.125
+"FE12",19,19,"Akan","6","Af03",5,4
+"MS30",21,21,"Wolof","7","Cb02",1,1
+"MS30",21,21,"Wolof","7","Cb02",2,3
+"MS30",21,21,"Wolof","7","Cb02",3,3
+"MS30",21,21,"Wolof","7","Cb02",4,NA
+"MS30",21,21,"Wolof","7","Cb02",5,2
+"FA08",22,22,"Bambara",NA,"Ag01",1,2.75
+"FA08",22,22,"Bambara",NA,"Ag01",2,3.75
+"FA08",22,22,"Bambara",NA,"Ag01",3,3.75
+"FA08",22,22,"Bambara",NA,"Ag01",4,3
+"FA08",22,22,"Bambara",NA,"Ag01",5,3
+"FE11",23,23,"Tallensi",NA,"Ag04",1,3
+"FE11",23,23,"Tallensi",NA,"Ag04",2,3.25
+"FE11",23,23,"Tallensi",NA,"Ag04",3,3.75
+"FE11",23,23,"Tallensi",NA,"Ag04",4,4
+"FE11",23,23,"Tallensi",NA,"Ag04",5,3.25
+"MS20",24,24,"Songhai",NA,"Cb03",1,3.25
+"MS20",24,24,"Songhai",NA,"Cb03",2,4
+"MS20",24,24,"Songhai",NA,"Cb03",3,4
+"MS20",24,24,"Songhai",NA,"Cb03",4,4
+"MS20",24,24,"Songhai",NA,"Cb03",5,3.75
+"MS11",25,25,"Fulani",NA,"Cb24",1,NA
+"MS11",25,25,"Fulani",NA,"Cb24",2,NA
+"MS11",25,25,"Fulani",NA,"Cb24",3,NA
+"MS11",25,25,"Fulani",NA,"Cb24",4,NA
+"MS11",25,25,"Fulani",NA,"Cb24",5,NA
+"MS12",26,26,"Hausa","10","Cb26",1,3.875
+"MS12",26,26,"Hausa","10","Cb26",2,3.875
+"MS12",26,26,"Hausa","10","Cb26",3,3.875
+"MS12",26,26,"Hausa","10","Cb26",4,NA
+"MS12",26,26,"Hausa","10","Cb26",5,3.875
+"FI21",27,27,"Masa",NA,"Ai09",1,NA
+"FI21",27,27,"Masa",NA,"Ai09",2,NA
+"FI21",27,27,"Masa",NA,"Ai09",3,NA
+"FI21",27,27,"Masa",NA,"Ai09",4,NA
+"FI21",27,27,"Masa",NA,"Ai09",5,NA
+"FO07",28,28,"Azande","5","Ai03",1,3.875
+"FO07",28,28,"Azande","5","Ai03",2,3.875
+"FO07",28,28,"Azande","5","Ai03",3,4
+"FO07",28,28,"Azande","5","Ai03",4,3.875
+"FO07",28,28,"Azande","5","Ai03",5,4
+"MQ08",29,29,"Fur",NA,"Cb17",1,3.25
+"MQ08",29,29,"Fur",NA,"Cb17",2,4
+"MQ08",29,29,"Fur",NA,"Cb17",3,3.25
+"MQ08",29,29,"Fur",NA,"Cb17",4,3.25
+"MQ08",29,29,"Fur",NA,"Cb17",5,3.25
+"FJ21",30,30,"Nuba",NA,"Ai10",1,3
+"FJ21",30,30,"Nuba",NA,"Ai10",2,3
+"FJ21",30,30,"Nuba",NA,"Ai10",3,3.25
+"FJ21",30,30,"Nuba",NA,"Ai10",4,2.75
+"FJ21",30,30,"Nuba",NA,"Ai10",5,3
+"MP19",32,32,"Mao",NA,"Ai47",1,3
+"MP19",32,32,"Mao",NA,"Ai47",2,NA
+"MP19",32,32,"Mao",NA,"Ai47",3,NA
+"MP19",32,32,"Mao",NA,"Ai47",4,NA
+"MP19",32,32,"Mao",NA,"Ai47",5,2.75
+"FL12",34,34,"Maasai","11","Aj02",1,NA
+"FL12",34,34,"Maasai","11","Aj02",2,NA
+"FL12",34,34,"Maasai","11","Aj02",3,NA
+"FL12",34,34,"Maasai","11","Aj02",4,NA
+"FL12",34,34,"Maasai","11","Aj02",5,NA
+"MP17",35,35,"Konso",NA,"Ca01",1,NA
+"MP17",35,35,"Konso",NA,"Ca01",2,NA
+"MP17",35,35,"Konso",NA,"Ca01",3,NA
+"MP17",35,35,"Konso",NA,"Ca01",4,NA
+"MP17",35,35,"Konso",NA,"Ca01",5,NA
+"MO04",36,36,"Somali","12","Ca02",1,3
+"MO04",36,36,"Somali","12","Ca02",2,3.25
+"MO04",36,36,"Somali","12","Ca02",3,3.75
+"MO04",36,36,"Somali","12","Ca02",4,3.25
+"MO04",36,36,"Somali","12","Ca02",5,3.25
+"MP05",37,37,"Amhara","17","Ca07",1,4
+"MP05",37,37,"Amhara","17","Ca07",2,2.75
+"MP05",37,37,"Amhara","17","Ca07",3,2.75
+"MP05",37,37,"Amhara","17","Ca07",4,3
+"MP05",37,37,"Amhara","17","Ca07",5,3
+"MS22",40,40,"Teda",NA,"Cc02",1,2.75
+"MS22",40,40,"Teda",NA,"Cc02",2,4
+"MS22",40,40,"Teda",NA,"Cc02",3,3
+"MS22",40,40,"Teda",NA,"Cc02",4,3
+"MS22",40,40,"Teda",NA,"Cc02",5,3
+"MX03",42,42,"Berbers of Morocco",NA,"Cd03",1,4
+"MX03",42,42,"Berbers of Morocco",NA,"Cd03",2,3.875
+"MX03",42,42,"Berbers of Morocco",NA,"Cd03",3,2.625
+"MX03",42,42,"Berbers of Morocco",NA,"Cd03",4,NA
+"MX03",42,42,"Berbers of Morocco",NA,"Cd03",5,3.25
+"MR13",43,43,"Fellahin",NA,"Cd02",1,4
+"MR13",43,43,"Fellahin",NA,"Cd02",2,4
+"MR13",43,43,"Fellahin",NA,"Cd02",3,3.25
+"MR13",43,43,"Fellahin",NA,"Cd02",4,3.75
+"MR13",43,43,"Fellahin",NA,"Cd02",5,4
+"MD04",46,46,"Rwala Bedouin",NA,"Cj02",1,3.5
+"MD04",46,46,"Rwala Bedouin",NA,"Cj02",2,NA
+"MD04",46,46,"Rwala Bedouin",NA,"Cj02",3,2
+"MD04",46,46,"Rwala Bedouin",NA,"Cj02",4,4
+"MD04",46,46,"Rwala Bedouin",NA,"Cj02",5,3
+"MB01",47,47,"Turks",NA,"Ci05",1,3
+"MB01",47,47,"Turks",NA,"Ci05",2,3.625
+"MB01",47,47,"Turks",NA,"Ci05",3,3
+"MB01",47,47,"Turks",NA,"Ci05",4,4
+"MB01",47,47,"Turks",NA,"Ci05",5,3
+"ER06",51,51,"Rural Irish",NA,"Cg03",1,3.75
+"ER06",51,51,"Rural Irish",NA,"Cg03",2,3.25
+"ER06",51,51,"Rural Irish",NA,"Cg03",3,3.75
+"ER06",51,51,"Rural Irish",NA,"Cg03",4,3.75
+"ER06",51,51,"Rural Irish",NA,"Cg03",5,3.75
+"EP04",52,52,"Saami","20","Cg04",1,2.25
+"EP04",52,52,"Saami","20","Cg04",2,4
+"EP04",52,52,"Saami","20","Cg04",3,3.25
+"EP04",52,52,"Saami","20","Cg04",4,NA
+"EP04",52,52,"Saami","20","Cg04",5,2.25
+"RU41",53,53,"Nenets",NA,"Ec04",1,2
+"RU41",53,53,"Nenets",NA,"Ec04",2,3
+"RU41",53,53,"Nenets",NA,"Ec04",3,3
+"RU41",53,53,"Nenets",NA,"Ec04",4,NA
+"RU41",53,53,"Nenets",NA,"Ec04",5,2
+"RF10",54,54,"Russians",NA,"Ch11",1,4
+"RF10",54,54,"Russians",NA,"Ch11",2,3.75
+"RF10",54,54,"Russians",NA,"Ch11",3,4
+"RF10",54,54,"Russians",NA,"Ch11",4,3.75
+"RF10",54,54,"Russians",NA,"Ch11",5,3.75
+"RI03",55,55,"Abkhazians",NA,"Ci12",1,3
+"RI03",55,55,"Abkhazians",NA,"Ci12",2,3.625
+"RI03",55,55,"Abkhazians",NA,"Ci12",3,3.75
+"RI03",55,55,"Abkhazians",NA,"Ci12",4,NA
+"RI03",55,55,"Abkhazians",NA,"Ci12",5,3.625
+"MA11",57,57,"Kurds","21","Ci11",1,3
+"MA11",57,57,"Kurds","21","Ci11",2,3.25
+"MA11",57,57,"Kurds","21","Ci11",3,3.75
+"MA11",57,57,"Kurds","21","Ci11",4,2.75
+"MA11",57,57,"Kurds","21","Ci11",5,3.25
+"MA10",58,58,"Basseri",NA,"Ea06",1,2.125
+"MA10",58,58,"Basseri",NA,"Ea06",2,3.125
+"MA10",58,58,"Basseri",NA,"Ea06",3,2.375
+"MA10",58,58,"Basseri",NA,"Ea06",4,3.125
+"MA10",58,58,"Basseri",NA,"Ea06",5,2.75
+"AT03",59,59,"West Punjabi",NA,"Ea13",1,NA
+"AT03",59,59,"West Punjabi",NA,"Ea13",2,NA
+"AT03",59,59,"West Punjabi",NA,"Ea13",3,NA
+"AT03",59,59,"West Punjabi",NA,"Ea13",4,NA
+"AT03",59,59,"West Punjabi",NA,"Ea13",5,NA
+"AW32",60,60,"Gond",NA,"Eg13",1,2.125
+"AW32",60,60,"Gond",NA,"Eg13",2,3.125
+"AW32",60,60,"Gond",NA,"Eg13",3,3.125
+"AW32",60,60,"Gond",NA,"Eg13",4,3.625
+"AW32",60,60,"Gond",NA,"Eg13",5,3
+"AW42",62,62,"Santal","28","Ef01",1,3.875
+"AW42",62,62,"Santal","28","Ef01",2,4
+"AW42",62,62,"Santal","28","Ef01",3,4
+"AW42",62,62,"Santal","28","Ef01",4,3.125
+"AW42",62,62,"Santal","28","Ef01",5,4
+"AW19",63,63,"Uttar Pradesh",NA,"Ef11",1,3.75
+"AW19",63,63,"Uttar Pradesh",NA,"Ef11",2,NA
+"AW19",63,63,"Uttar Pradesh",NA,"Ef11",3,3.5
+"AW19",63,63,"Uttar Pradesh",NA,"Ef11",4,NA
+"AW19",63,63,"Uttar Pradesh",NA,"Ef11",5,3.75
+"AV07",64,64,"Burusho",NA,"Ee02",1,2
+"AV07",64,64,"Burusho",NA,"Ee02",2,1.5
+"AV07",64,64,"Burusho",NA,"Ee02",3,1.125
+"AV07",64,64,"Burusho",NA,"Ee02",4,4
+"AV07",64,64,"Burusho",NA,"Ee02",5,2
+"RQ02",65,65,"Kazakh",NA,"Eb01",1,3.75
+"RQ02",65,65,"Kazakh",NA,"Eb01",2,3.75
+"RQ02",65,65,"Kazakh",NA,"Eb01",3,3.25
+"RQ02",65,65,"Kazakh",NA,"Eb01",4,4
+"RQ02",65,65,"Kazakh",NA,"Eb01",5,3.75
+"AH01",66,66,"Mongolia",NA,"Eb03",1,3
+"AH01",66,66,"Mongolia",NA,"Eb03",2,3.25
+"AH01",66,66,"Mongolia",NA,"Eb03",3,4
+"AH01",66,66,"Mongolia",NA,"Eb03",4,2.75
+"AH01",66,66,"Mongolia",NA,"Eb03",5,3
+"AK05",68,68,"Lepcha",NA,"Ee03",1,2.25
+"AK05",68,68,"Lepcha",NA,"Ee03",2,3
+"AK05",68,68,"Lepcha",NA,"Ee03",3,3.75
+"AK05",68,68,"Lepcha",NA,"Ee03",4,4
+"AK05",68,68,"Lepcha",NA,"Ee03",5,3
+"AR05",69,69,"Garo","27","Ei01",1,3.125
+"AR05",69,69,"Garo","27","Ei01",2,3
+"AR05",69,69,"Garo","27","Ei01",3,2.875
+"AR05",69,69,"Garo","27","Ei01",4,3.25
+"AR05",69,69,"Garo","27","Ei01",5,3
+"AR20",70,70,"Mara",NA,"Ei04",1,2.25
+"AR20",70,70,"Mara",NA,"Ei04",2,2.75
+"AR20",70,70,"Mara",NA,"Ei04",3,2.75
+"AR20",70,70,"Mara",NA,"Ei04",4,4
+"AR20",70,70,"Mara",NA,"Ei04",5,2.75
+"AP04",71,71,"Burmans",NA,"Ei03",1,1.75
+"AP04",71,71,"Burmans",NA,"Ei03",2,4
+"AP04",71,71,"Burmans",NA,"Ei03",3,2.25
+"AP04",71,71,"Burmans",NA,"Ei03",4,NA
+"AP04",71,71,"Burmans",NA,"Ei03",5,2
+"AM28",72,72,"Rmeet",NA,"Ej01",1,NA
+"AM28",72,72,"Rmeet",NA,"Ej01",2,NA
+"AM28",72,72,"Rmeet",NA,"Ej01",3,NA
+"AM28",72,72,"Rmeet",NA,"Ej01",4,NA
+"AM28",72,72,"Rmeet",NA,"Ej01",5,NA
+"AM11",73,73,"Vietnamese",NA,"Ej04",1,2.75
+"AM11",73,73,"Vietnamese",NA,"Ej04",2,3
+"AM11",73,73,"Vietnamese",NA,"Ej04",3,3.25
+"AM11",73,73,"Vietnamese",NA,"Ej04",4,2.25
+"AM11",73,73,"Vietnamese",NA,"Ej04",5,2.75
+"AO07",76,76,"Central Thai","30","Ej09",1,2
+"AO07",76,76,"Central Thai","30","Ej09",2,3.875
+"AO07",76,76,"Central Thai","30","Ej09",3,3.875
+"AO07",76,76,"Central Thai","30","Ej09",4,3.875
+"AO07",76,76,"Central Thai","30","Ej09",5,2.625
+"AZ02",79,79,"Andamans","31","Eh01",1,3.25
+"AZ02",79,79,"Andamans","31","Eh01",2,2.5
+"AZ02",79,79,"Andamans","31","Eh01",3,2.875
+"AZ02",79,79,"Andamans","31","Eh01",4,4
+"AZ02",79,79,"Andamans","31","Eh01",5,3
+"OE05",83,83,"Javanese",NA,"Ib02",1,2
+"OE05",83,83,"Javanese",NA,"Ib02",2,1.75
+"OE05",83,83,"Javanese",NA,"Ib02",3,2
+"OE05",83,83,"Javanese",NA,"Ib02",4,2
+"OE05",83,83,"Javanese",NA,"Ib02",5,2
+"OF07",84,84,"Balinese",NA,"Ib03",1,3
+"OF07",84,84,"Balinese",NA,"Ib03",2,3.125
+"OF07",84,84,"Balinese",NA,"Ib03",3,3.375
+"OF07",84,84,"Balinese",NA,"Ib03",4,3
+"OF07",84,84,"Balinese",NA,"Ib03",5,3.125
+"OC06",85,85,"Iban","33","Ib01",1,3.25
+"OC06",85,85,"Iban","33","Ib01",2,4
+"OC06",85,85,"Iban","33","Ib01",3,3
+"OC06",85,85,"Iban","33","Ib01",4,2.75
+"OC06",85,85,"Iban","33","Ib01",5,3.25
+"OA08",86,86,"Sama-Bajau",NA,"Ia13",1,NA
+"OA08",86,86,"Sama-Bajau",NA,"Ia13",2,NA
+"OA08",86,86,"Sama-Bajau",NA,"Ia13",3,NA
+"OA08",86,86,"Sama-Bajau",NA,"Ia13",4,NA
+"OA08",86,86,"Sama-Bajau",NA,"Ia13",5,NA
+"OG11",87,87,"Eastern Toraja","34","Ic05",1,4
+"OG11",87,87,"Eastern Toraja","34","Ic05",2,4
+"OG11",87,87,"Eastern Toraja","34","Ic05",3,3.875
+"OG11",87,87,"Eastern Toraja","34","Ic05",4,2.875
+"OG11",87,87,"Eastern Toraja","34","Ic05",5,4
+"OI20",90,90,"Tiwi",NA,"Id03",1,3
+"OI20",90,90,"Tiwi",NA,"Id03",2,3
+"OI20",90,90,"Tiwi",NA,"Id03",3,3.25
+"OI20",90,90,"Tiwi",NA,"Id03",4,NA
+"OI20",90,90,"Tiwi",NA,"Id03",5,2.5
+"OI08",91,91,"Aranda","35","Id01",1,4
+"OI08",91,91,"Aranda","35","Id01",2,4
+"OI08",91,91,"Aranda","35","Id01",3,3.875
+"OI08",91,91,"Aranda","35","Id01",4,4
+"OI08",91,91,"Aranda","35","Id01",5,4
+"OJ23",92,92,"Orokaiva",NA,"Ie09",1,2.25
+"OJ23",92,92,"Orokaiva",NA,"Ie09",2,4
+"OJ23",92,92,"Orokaiva",NA,"Ie09",3,3.75
+"OJ23",92,92,"Orokaiva",NA,"Ie09",4,2.75
+"OJ23",92,92,"Orokaiva",NA,"Ie09",5,2.25
+"OJ82",93,93,"Kimam",NA,"Ie18",1,3.25
+"OJ82",93,93,"Kimam",NA,"Ie18",2,4
+"OJ82",93,93,"Kimam",NA,"Ie18",3,3.75
+"OJ82",93,93,"Kimam",NA,"Ie18",4,3
+"OJ82",93,93,"Kimam",NA,"Ie18",5,3.25
+"OJ29",94,94,"Kapauku","36","Ie01",1,3.5
+"OJ29",94,94,"Kapauku","36","Ie01",2,3.625
+"OJ29",94,94,"Kapauku","36","Ie01",3,3.75
+"OJ29",94,94,"Kapauku","36","Ie01",4,2.875
+"OJ29",94,94,"Kapauku","36","Ie01",5,3.5
+"OM06",96,96,"Manus",NA,"Ig09",1,3.625
+"OM06",96,96,"Manus",NA,"Ig09",2,3.875
+"OM06",96,96,"Manus",NA,"Ig09",3,3.875
+"OM06",96,96,"Manus",NA,"Ig09",4,3.875
+"OM06",96,96,"Manus",NA,"Ig09",5,3.875
+"OL06",98,98,"Trobriands","38","Ig02",1,2.5
+"OL06",98,98,"Trobriands","38","Ig02",2,2.125
+"OL06",98,98,"Trobriands","38","Ig02",3,3.125
+"OL06",98,98,"Trobriands","38","Ig02",4,3
+"OL06",98,98,"Trobriands","38","Ig02",5,2.625
+"ON19",99,99,"Siwai",NA,"Ig01",1,3.25
+"ON19",99,99,"Siwai",NA,"Ig01",2,3.75
+"ON19",99,99,"Siwai",NA,"Ig01",3,3.75
+"ON19",99,99,"Siwai",NA,"Ig01",4,2.75
+"ON19",99,99,"Siwai",NA,"Ig01",5,3.25
+"OT11",100,100,"Tikopia","40","Ii02",1,2.75
+"OT11",100,100,"Tikopia","40","Ii02",2,2.75
+"OT11",100,100,"Tikopia","40","Ii02",3,3.25
+"OT11",100,100,"Tikopia","40","Ii02",4,3
+"OT11",100,100,"Tikopia","40","Ii02",5,3
+"OQ12",102,102,"Bau Fijians",NA,"Ih14",1,NA
+"OQ12",102,102,"Bau Fijians",NA,"Ih14",2,NA
+"OQ12",102,102,"Bau Fijians",NA,"Ih14",3,NA
+"OQ12",102,102,"Bau Fijians",NA,"Ih14",4,NA
+"OQ12",102,102,"Bau Fijians",NA,"Ih14",5,NA
+"OZ04",104,104,"Maori",NA,"Ij02",1,3.75
+"OZ04",104,104,"Maori",NA,"Ij02",2,4
+"OZ04",104,104,"Maori",NA,"Ij02",3,4
+"OZ04",104,104,"Maori",NA,"Ij02",4,2.125
+"OZ04",104,104,"Maori",NA,"Ij02",5,3.875
+"OU08",106,106,"Samoans",NA,"Ii14",1,2.625
+"OU08",106,106,"Samoans",NA,"Ii14",2,3.875
+"OU08",106,106,"Samoans",NA,"Ii14",3,4
+"OU08",106,106,"Samoans",NA,"Ii14",4,3.625
+"OU08",106,106,"Samoans",NA,"Ii14",5,4
+"OR11",108,108,"Marshallese",NA,"If17",1,3.75
+"OR11",108,108,"Marshallese",NA,"If17",2,4
+"OR11",108,108,"Marshallese",NA,"If17",3,4
+"OR11",108,108,"Marshallese",NA,"If17",4,3
+"OR11",108,108,"Marshallese",NA,"If17",5,3.75
+"OR19",109,109,"Chuuk","37","If02",1,3.75
+"OR19",109,109,"Chuuk","37","If02",2,3
+"OR19",109,109,"Chuuk","37","If02",3,2.875
+"OR19",109,109,"Chuuk","37","If02",4,3
+"OR19",109,109,"Chuuk","37","If02",5,3
+"OR22",110,110,"Yapese",NA,"If06",1,3.25
+"OR22",110,110,"Yapese",NA,"If06",2,4
+"OR22",110,110,"Yapese",NA,"If06",3,4
+"OR22",110,110,"Yapese",NA,"If06",4,3.75
+"OR22",110,110,"Yapese",NA,"If06",5,3.75
+"OA19",112,112,"Ifugao","32","Ia03",1,2.125
+"OA19",112,112,"Ifugao","32","Ia03",2,2.875
+"OA19",112,112,"Ifugao","32","Ia03",3,3
+"OA19",112,112,"Ifugao","32","Ia03",4,NA
+"OA19",112,112,"Ifugao","32","Ia03",5,2.625
+"AA01",116,116,"Korea","25","Ed01",1,3.875
+"AA01",116,116,"Korea","25","Ed01",2,3.875
+"AA01",116,116,"Korea","25","Ed01",3,3.875
+"AA01",116,116,"Korea","25","Ed01",4,2.125
+"AA01",116,116,"Korea","25","Ed01",5,3.875
+"AB43",117,117,"Okayama",NA,"Ed05",1,3.75
+"AB43",117,117,"Okayama",NA,"Ed05",2,3.75
+"AB43",117,117,"Okayama",NA,"Ed05",3,3.75
+"AB43",117,117,"Okayama",NA,"Ed05",4,3.75
+"AB43",117,117,"Okayama",NA,"Ed05",5,3.75
+"AB06",118,118,"Ainu",NA,"Ec07",1,1.75
+"AB06",118,118,"Ainu",NA,"Ec07",2,3
+"AB06",118,118,"Ainu",NA,"Ec07",3,3.25
+"AB06",118,118,"Ainu",NA,"Ec07",4,NA
+"AB06",118,118,"Ainu",NA,"Ec07",5,2.75
+"RX02",119,119,"Nivkh",NA,"Ec01",1,3.75
+"RX02",119,119,"Nivkh",NA,"Ec01",2,4
+"RX02",119,119,"Nivkh",NA,"Ec01",3,4
+"RX02",119,119,"Nivkh",NA,"Ec01",4,4
+"RX02",119,119,"Nivkh",NA,"Ec01",5,4
+"RY02",121,121,"Chukchee","24","Ec03",1,1
+"RY02",121,121,"Chukchee","24","Ec03",2,1.25
+"RY02",121,121,"Chukchee","24","Ec03",3,3
+"RY02",121,121,"Chukchee","24","Ec03",4,1.75
+"RY02",121,121,"Chukchee","24","Ec03",5,1.25
+"ND08",124,124,"Copper Inuit","41","Na03",1,1.25
+"ND08",124,124,"Copper Inuit","41","Na03",2,NA
+"ND08",124,124,"Copper Inuit","41","Na03",3,NA
+"ND08",124,124,"Copper Inuit","41","Na03",4,NA
+"ND08",124,124,"Copper Inuit","41","Na03",5,1.25
+"NG06",127,127,"Ojibwa","42","Na33",1,NA
+"NG06",127,127,"Ojibwa","42","Na33",2,NA
+"NG06",127,127,"Ojibwa","42","Na33",3,NA
+"NG06",127,127,"Ojibwa","42","Na33",4,NA
+"NG06",127,127,"Ojibwa","42","Na33",5,NA
+"NA07",130,130,"Eyak",NA,"Nb05",1,3
+"NA07",130,130,"Eyak",NA,"Nb05",2,2
+"NA07",130,130,"Eyak",NA,"Nb05",3,2
+"NA07",130,130,"Eyak",NA,"Nb05",4,3
+"NA07",130,130,"Eyak",NA,"Nb05",5,2.5
+"NE09",131,131,"Haida",NA,"Nb01",1,3.5
+"NE09",131,131,"Haida",NA,"Nb01",2,3.625
+"NE09",131,131,"Haida",NA,"Nb01",3,3.125
+"NE09",131,131,"Haida",NA,"Nb01",4,3.125
+"NE09",131,131,"Haida",NA,"Nb01",5,3.25
+"NE06",132,132,"Nuxalk",NA,"Nb09",1,3.25
+"NE06",132,132,"Nuxalk",NA,"Nb09",2,3.75
+"NE06",132,132,"Nuxalk",NA,"Nb09",3,3.25
+"NE06",132,132,"Nuxalk",NA,"Nb09",4,4
+"NE06",132,132,"Nuxalk",NA,"Nb09",5,3.75
+"NS18",135,135,"Pomo",NA,"Nc18",1,3.125
+"NS18",135,135,"Pomo",NA,"Nc18",2,4
+"NS18",135,135,"Pomo",NA,"Nc18",3,3.875
+"NS18",135,135,"Pomo",NA,"Nc18",4,3.75
+"NS18",135,135,"Pomo",NA,"Nc18",5,3.5
+"NS29",136,136,"Yokuts",NA,"Nc24",1,2.75
+"NS29",136,136,"Yokuts",NA,"Nc24",2,3.375
+"NS29",136,136,"Yokuts",NA,"Nc24",3,4
+"NS29",136,136,"Yokuts",NA,"Nc24",4,3.5
+"NS29",136,136,"Yokuts",NA,"Nc24",5,3
+"NR10",138,138,"Klamath","44","Nc08",1,NA
+"NR10",138,138,"Klamath","44","Nc08",2,NA
+"NR10",138,138,"Klamath","44","Nc08",3,NA
+"NR10",138,138,"Klamath","44","Nc08",4,NA
+"NR10",138,138,"Klamath","44","Nc08",5,NA
+"NQ14",141,141,"Hidatsa",NA,"Ne15",1,2
+"NQ14",141,141,"Hidatsa",NA,"Ne15",2,1.25
+"NQ14",141,141,"Hidatsa",NA,"Ne15",3,1.75
+"NQ14",141,141,"Hidatsa",NA,"Ne15",4,3
+"NQ14",141,141,"Hidatsa",NA,"Ne15",5,2
+"NQ18",142,142,"Pawnee","46","Nf06",1,2.25
+"NQ18",142,142,"Pawnee","46","Nf06",2,2.25
+"NQ18",142,142,"Pawnee","46","Nf06",3,2.75
+"NQ18",142,142,"Pawnee","46","Nf06",4,4
+"NQ18",142,142,"Pawnee","46","Nf06",5,2.75
+"NG05",144,144,"Huron/Wendat",NA,"Ng01",1,2.25
+"NG05",144,144,"Huron/Wendat",NA,"Ng01",2,2
+"NG05",144,144,"Huron/Wendat",NA,"Ng01",3,3
+"NG05",144,144,"Huron/Wendat",NA,"Ng01",4,2
+"NG05",144,144,"Huron/Wendat",NA,"Ng01",5,2.25
+"NT14",150,150,"Havasupai",NA,"Nd03",1,1.25
+"NT14",150,150,"Havasupai",NA,"Nd03",2,1.25
+"NT14",150,150,"Havasupai",NA,"Nd03",3,2
+"NT14",150,150,"Havasupai",NA,"Nd03",4,2
+"NT14",150,150,"Havasupai",NA,"Nd03",5,1.25
+"NU79",151,151,"O'odham",NA,"Ni02",1,NA
+"NU79",151,151,"O'odham",NA,"Ni02",2,3
+"NU79",151,151,"O'odham",NA,"Ni02",3,3
+"NU79",151,151,"O'odham",NA,"Ni02",4,4
+"NU79",151,151,"O'odham",NA,"Ni02",5,3.75
+"NU30",154,154,"Popoluca",NA,"Nj03",1,3.25
+"NU30",154,154,"Popoluca",NA,"Nj03",2,3.75
+"NU30",154,154,"Popoluca",NA,"Nj03",3,3.75
+"NU30",154,154,"Popoluca",NA,"Nj03",4,2.75
+"NU30",154,154,"Popoluca",NA,"Nj03",5,3.25
+"SA15",156,156,"Miskito",NA,"Sa09",1,3.25
+"SA15",156,156,"Miskito",NA,"Sa09",2,3.625
+"SA15",156,156,"Miskito",NA,"Sa09",3,3.5
+"SA15",156,156,"Miskito",NA,"Sa09",4,NA
+"SA15",156,156,"Miskito",NA,"Sa09",5,3.125
+"SB05",158,158,"Kuna","51","Sa01",1,3.625
+"SB05",158,158,"Kuna","51","Sa01",2,4
+"SB05",158,158,"Kuna","51","Sa01",3,3.75
+"SB05",158,158,"Kuna","51","Sa01",4,3
+"SB05",158,158,"Kuna","51","Sa01",5,3.875
+"SC13",159,159,"Goajiro",NA,"Sb06",1,3.75
+"SC13",159,159,"Goajiro",NA,"Sb06",2,4
+"SC13",159,159,"Goajiro",NA,"Sb06",3,4
+"SC13",159,159,"Goajiro",NA,"Sb06",4,3.75
+"SC13",159,159,"Goajiro",NA,"Sb06",5,3.75
+"SV03",160,160,"Haitians",NA,"Sb09",1,3.75
+"SV03",160,160,"Haitians",NA,"Sb09",2,4
+"SV03",160,160,"Haitians",NA,"Sb09",3,4
+"SV03",160,160,"Haitians",NA,"Sb09",4,4
+"SV03",160,160,"Haitians",NA,"Sb09",5,4
+"SS18",162,162,"Warao",NA,"Sc01",1,2.875
+"SS18",162,162,"Warao",NA,"Sc01",2,3.5
+"SS18",162,162,"Warao",NA,"Sc01",3,4
+"SS18",162,162,"Warao",NA,"Sc01",4,1.5
+"SS18",162,162,"Warao",NA,"Sc01",5,2.125
+"SQ18",163,163,"Yanoama","60","Sd09",1,2
+"SQ18",163,163,"Yanoama","60","Sd09",2,3
+"SQ18",163,163,"Yanoama","60","Sd09",3,4
+"SQ18",163,163,"Yanoama","60","Sd09",4,2
+"SQ18",163,163,"Yanoama","60","Sd09",5,2.125
+"SR09",164,164,"Barama River Carib",NA,"Sc03",1,2.125
+"SR09",164,164,"Barama River Carib",NA,"Sc03",2,2.375
+"SR09",164,164,"Barama River Carib",NA,"Sc03",3,3.5
+"SR09",164,164,"Barama River Carib",NA,"Sc03",4,3
+"SR09",164,164,"Barama River Carib",NA,"Sc03",5,2.875
+"SR15",165,165,"Saramaka","59","Sc06",1,4
+"SR15",165,165,"Saramaka","59","Sc06",2,3.75
+"SR15",165,165,"Saramaka","59","Sc06",3,3.75
+"SR15",165,165,"Saramaka","59","Sc06",4,NA
+"SR15",165,165,"Saramaka","59","Sc06",5,4
+"SQ19",167,167,"Tukano","58","Se12",1,2.75
+"SQ19",167,167,"Tukano","58","Se12",2,2.125
+"SQ19",167,167,"Tukano","58","Se12",3,2.875
+"SQ19",167,167,"Tukano","58","Se12",4,3.375
+"SQ19",167,167,"Tukano","58","Se12",5,2.75
+"SD06",168,168,"Chachi",NA,"Sf03",1,3.75
+"SD06",168,168,"Chachi",NA,"Sf03",2,4
+"SD06",168,168,"Chachi",NA,"Sf03",3,3.75
+"SD06",168,168,"Chachi",NA,"Sf03",4,4
+"SD06",168,168,"Chachi",NA,"Sf03",5,3.875
+"SF05",172,172,"Aymara","53","Sf02",1,3.75
+"SF05",172,172,"Aymara","53","Sf02",2,3.75
+"SF05",172,172,"Aymara","53","Sf02",3,3.25
+"SF05",172,172,"Aymara","53","Sf02",4,2
+"SF05",172,172,"Aymara","53","Sf02",5,3.75
+"SF21",173,173,"Sirionó",NA,"Se01",1,1
+"SF21",173,173,"Sirionó",NA,"Se01",2,1
+"SF21",173,173,"Sirionó",NA,"Se01",3,2
+"SF21",173,173,"Sirionó",NA,"Se01",4,1
+"SF21",173,173,"Sirionó",NA,"Se01",5,1
+"SP26",179,179,"Xavante",NA,"Sj11",1,1.875
+"SP26",179,179,"Xavante",NA,"Sj11",2,1
+"SP26",179,179,"Xavante",NA,"Sj11",3,1.875
+"SP26",179,179,"Xavante",NA,"Sj11",4,2
+"SP26",179,179,"Xavante",NA,"Sj11",5,1.875
+"SM04",181,181,"Guaraní","56","Sj10",1,2.875
+"SM04",181,181,"Guaraní","56","Sj10",2,NA
+"SM04",181,181,"Guaraní","56","Sj10",3,3.125
+"SM04",181,181,"Guaraní","56","Sj10",4,NA
+"SM04",181,181,"Guaraní","56","Sj10",5,2.875
+"SK15",182,182,"Enxet and Enlhet",NA,"Sh09",1,2.25
+"SK15",182,182,"Enxet and Enlhet",NA,"Sh09",2,3.25
+"SK15",182,182,"Enxet and Enlhet",NA,"Sh09",3,4
+"SK15",182,182,"Enxet and Enlhet",NA,"Sh09",4,2
+"SK15",182,182,"Enxet and Enlhet",NA,"Sh09",5,2.25
+"SG04",184,184,"Mapuche",NA,"Sg02",1,3.25
+"SG04",184,184,"Mapuche",NA,"Sg02",2,3.75
+"SG04",184,184,"Mapuche",NA,"Sg02",3,3.75
+"SG04",184,184,"Mapuche",NA,"Sg02",4,4
+"SG04",184,184,"Mapuche",NA,"Sg02",5,3.75
+"SH05",185,185,"Tehuelche",NA,"Sg04",1,1
+"SH05",185,185,"Tehuelche",NA,"Sg04",2,NA
+"SH05",185,185,"Tehuelche",NA,"Sg04",3,NA
+"SH05",185,185,"Tehuelche",NA,"Sg04",4,4
+"SH05",185,185,"Tehuelche",NA,"Sg04",5,1
+"SH06",186,186,"Yahgan",NA,"Sg01",1,2.5
+"SH06",186,186,"Yahgan",NA,"Sg01",2,3.5
+"SH06",186,186,"Yahgan",NA,"Sg01",3,3.875
+"SH06",186,186,"Yahgan",NA,"Sg01",4,4
+"SH06",186,186,"Yahgan",NA,"Sg01",5,3
+"AD05",NA,201,"Taiwan Hokkien","26",NA,1,3.625
+"AD05",NA,201,"Taiwan Hokkien","26",NA,2,4
+"AD05",NA,201,"Taiwan Hokkien","26",NA,3,3
+"AD05",NA,201,"Taiwan Hokkien","26",NA,4,3.375
+"AD05",NA,201,"Taiwan Hokkien","26",NA,5,3.625
+"AR07",NA,202,"Khasi","29","Ei08",1,3
+"AR07",NA,202,"Khasi","29","Ei08",2,4
+"AR07",NA,202,"Khasi","29","Ei08",3,2.875
+"AR07",NA,202,"Khasi","29","Ei08",4,2.875
+"AR07",NA,202,"Khasi","29","Ei08",5,3
+"AX04",NA,203,"Sinhalese","22","Eh06",1,3.25
+"AX04",NA,203,"Sinhalese","22","Eh06",2,3
+"AX04",NA,203,"Sinhalese","22","Eh06",3,3.375
+"AX04",NA,203,"Sinhalese","22","Eh06",4,2.75
+"AX04",NA,203,"Sinhalese","22","Eh06",5,3
+"EF06",NA,204,"Serbs","19","Ch01",1,2.125
+"EF06",NA,204,"Serbs","19","Ch01",2,2.25
+"EF06",NA,204,"Serbs","19","Ch01",3,2
+"EF06",NA,204,"Serbs","19","Ch01",4,2
+"EF06",NA,204,"Serbs","19","Ch01",5,2
+"ES10",NA,205,"Highland Scots","18a",NA,1,3.25
+"ES10",NA,205,"Highland Scots","18a",NA,2,3.75
+"ES10",NA,205,"Highland Scots","18a",NA,3,3.125
+"ES10",NA,205,"Highland Scots","18a",NA,4,3.25
+"ES10",NA,205,"Highland Scots","18a",NA,5,3.25
+"FA16",NA,206,"Dogon","8","Ag03",1,3.5
+"FA16",NA,206,"Dogon","8","Ag03",2,3.5
+"FA16",NA,206,"Dogon","8","Ag03",3,3.875
+"FA16",NA,206,"Dogon","8","Ag03",4,3
+"FA16",NA,206,"Dogon","8","Ag03",5,3
+"MS14",NA,207,"Kanuri","14","Cb19",1,NA
+"MS14",NA,207,"Kanuri","14","Cb19",2,NA
+"MS14",NA,207,"Kanuri","14","Cb19",3,NA
+"MS14",NA,207,"Kanuri","14","Cb19",4,NA
+"MS14",NA,207,"Kanuri","14","Cb19",5,NA
+"MT09",NA,208,"Libyan Bedouin","16","Cd20",1,2.625
+"MT09",NA,208,"Libyan Bedouin","16","Cd20",2,3
+"MT09",NA,208,"Libyan Bedouin","16","Cd20",3,2.875
+"MT09",NA,208,"Libyan Bedouin","16","Cd20",4,3
+"MT09",NA,208,"Libyan Bedouin","16","Cd20",5,2.875
+"MW11",NA,209,"Shluh","15","Cd05",1,3
+"MW11",NA,209,"Shluh","15","Cd05",2,3
+"MW11",NA,209,"Shluh","15","Cd05",3,3.625
+"MW11",NA,209,"Shluh","15","Cd05",4,2.5
+"MW11",NA,209,"Shluh","15","Cd05",5,3
+"NA12",NA,210,"Tlingit","43","Nb22",1,3.875
+"NA12",NA,210,"Tlingit","43","Nb22",2,3.375
+"NA12",NA,210,"Tlingit","43","Nb22",3,3.625
+"NA12",NA,210,"Tlingit","43","Nb22",4,3
+"NA12",NA,210,"Tlingit","43","Nb22",5,3.625
+"NF06",NA,211,"Blackfoot","45","Ne12",1,NA
+"NF06",NA,211,"Blackfoot","45","Ne12",2,NA
+"NF06",NA,211,"Blackfoot","45","Ne12",3,NA
+"NF06",NA,211,"Blackfoot","45","Ne12",4,NA
+"NF06",NA,211,"Blackfoot","45","Ne12",5,NA
+"NM09",NA,212,"Iroquois","47","Ng10",1,3.75
+"NM09",NA,212,"Iroquois","47","Ng10",2,4
+"NM09",NA,212,"Iroquois","47","Ng10",3,4
+"NM09",NA,212,"Iroquois","47","Ng10",4,4
+"NM09",NA,212,"Iroquois","47","Ng10",5,3.875
+"NT09",NA,213,"Hopi","48","Nh18",1,3.75
+"NT09",NA,213,"Hopi","48","Nh18",2,3.875
+"NT09",NA,213,"Hopi","48","Nh18",3,3.875
+"NT09",NA,213,"Hopi","48","Nh18",4,4
+"NT09",NA,213,"Hopi","48","Nh18",5,3.875
+"NU33",NA,214,"Tarahumara","49","Ni01",1,4
+"NU33",NA,214,"Tarahumara","49","Ni01",2,4
+"NU33",NA,214,"Tarahumara","49","Ni01",3,3.5
+"NU33",NA,214,"Tarahumara","49","Ni01",4,3.875
+"NU33",NA,214,"Tarahumara","49","Ni01",5,4
+"NU44",NA,215,"Zapotec","50.b","Nj10",1,2.75
+"NU44",NA,215,"Zapotec","50.b","Nj10",2,3
+"NU44",NA,215,"Zapotec","50.b","Nj10",3,3.125
+"NU44",NA,215,"Zapotec","50.b","Nj10",4,2.375
+"NU44",NA,215,"Zapotec","50.b","Nj10",5,2.75
+"OQ06",NA,217,"Lau Fijians","39","Ih04",1,3
+"OQ06",NA,217,"Lau Fijians","39","Ih04",2,2
+"OQ06",NA,217,"Lau Fijians","39","Ih04",3,2.875
+"OQ06",NA,217,"Lau Fijians","39","Ih04",4,2.875
+"OQ06",NA,217,"Lau Fijians","39","Ih04",5,2.625
+"RV02",NA,218,"Yakut","23","Ec02",1,NA
+"RV02",NA,218,"Yakut","23","Ec02",2,NA
+"RV02",NA,218,"Yakut","23","Ec02",3,NA
+"RV02",NA,218,"Yakut","23","Ec02",4,NA
+"RV02",NA,218,"Yakut","23","Ec02",5,NA
+"SC07",NA,219,"Kogi","52","Sb02",1,3.875
+"SC07",NA,219,"Kogi","52","Sb02",2,4
+"SC07",NA,219,"Kogi","52","Sb02",3,4
+"SC07",NA,219,"Kogi","52","Sb02",4,3.375
+"SC07",NA,219,"Kogi","52","Sb02",5,4
+"SH04",NA,220,"Ona","54","Sg03",1,4
+"SH04",NA,220,"Ona","54","Sg03",2,4
+"SH04",NA,220,"Ona","54","Sg03",3,3.875
+"SH04",NA,220,"Ona","54","Sg03",4,3.75
+"SH04",NA,220,"Ona","54","Sg03",5,4
+"SI07",NA,221,"Mataco","55","Sh01",1,2.875
+"SI07",NA,221,"Mataco","55","Sh01",2,NA
+"SI07",NA,221,"Mataco","55","Sh01",3,3.375
+"SI07",NA,221,"Mataco","55","Sh01",4,NA
+"SI07",NA,221,"Mataco","55","Sh01",5,3
+"SO11",NA,222,"Bahia Brazilians","18b",NA,1,3.125
+"SO11",NA,222,"Bahia Brazilians","18b",NA,2,2.125
+"SO11",NA,222,"Bahia Brazilians","18b",NA,3,2.875
+"SO11",NA,222,"Bahia Brazilians","18b",NA,4,3
+"SO11",NA,222,"Bahia Brazilians","18b",NA,5,3
+"SP08",NA,223,"Bororo","57","Si01",1,NA
+"SP08",NA,223,"Bororo","57","Si01",2,NA
+"SP08",NA,223,"Bororo","57","Si01",3,NA
+"SP08",NA,223,"Bororo","57","Si01",4,NA
+"SP08",NA,223,"Bororo","57","Si01",5,NA
