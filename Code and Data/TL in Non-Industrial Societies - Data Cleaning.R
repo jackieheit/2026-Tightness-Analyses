@@ -1,4 +1,4 @@
-
+library(tidyverse)
 library(rstudioapi) 
 
 #set working directory to source folder
@@ -14,12 +14,31 @@ meta <- read.csv("sccs_meta.csv") #this file has a bunch of sccs meta-data
 resid <- read.csv("social_organization.csv") #this file has the patri- and matri-locality variables
 subsistence<-read.csv("subsistence.csv")
 
+
+hz <- read_csv("../../minerva/Hazards/Datasets/DT-hzcats-society-level.csv")
+
+sh <- read_csv("../../2026-Sharing-Analyses/sharing-dataset-for-analysis.csv")
+sh <- sh %>% select(ID, allhazards_nonfd_sev_exposure2_30, allhazards_nonfd_sev_exposure2_30_IA)
+
+hz <- full_join(hz, sh, by = c("ID"))
+# remove outliers identified in cluster analysis  
+
+hz <- hz %>% filter(ID != 73 & ID != 218)
+
+hz <- hz %>%
+  select(ID, normative_est_count_30, normative_est_count_30_IA, disaster_est_count_30, disaster_est_count_30_IA, allhazards_H9a_sev_exposure_30, allhazards_H9a_sev_exposure_30_IA, 
+         allhazards_nonfd_sev_exposure2_30, allhazards_nonfd_sev_exposure2_30_IA)
+
+hz_vars <- c("normative_est_count_30", "normative_est_count_30_IA", "disaster_est_count_30", "disaster_est_count_30_IA", "allhazards_H9a_sev_exposure_30", "allhazards_H9a_sev_exposure_30_IA", 
+             "allhazards_nonfd_sev_exposure2_30", "allhazards_nonfd_sev_exposure2_30_IA")
+
 #### Creating the Society-Level Master File #### 
 
 d <- merge(codes,geo,by="sccsn",all=T)
 d <- merge(d,meta,by="sccsn",all=T)
 d <- merge(d,resid,by="sccsn",all=T)
 d <- merge(d,subsistence,by="sccsn",all=T)
+d <- full_join(d, hz, by = c("sccsn" = "ID"))
 
 #Pathogen prevalence
 path<-data.frame("1"=d$v1253_rec,
@@ -67,6 +86,16 @@ d$famine_index<-rowMeans(famine,na.rm=T)
 
 #Natural Disasters
 d$Zoth<-scale(d$oth)
+
+# New Hazard Vars
+d <- d %>%
+  mutate(
+    across(
+      all_of(hz_vars),
+      ~ as.numeric(scale(.x)),
+      .names = "Z_{.col}"
+    )
+  )
 
 ##Population Density
 d$Zv1720_poppress<-scale(d$v1720_poppress)
@@ -140,6 +169,25 @@ threats<-data.frame("famine"=d$famine_index,
                     "internalwar"=d$Zv773_rev,
                     "pathogens"=d$Zpathogensum)
 
+threats <- data.frame(
+  famine = d$famine_index,
+  populationpressure = d$Zv1720_poppress,
+  naturalhazards = d$Zoth,
+  externalwar = d$Zv774_rev,
+  internalwar = d$Zv773_rev,
+  pathogens = d$Zpathogensum,
+  
+  # normative_est_count_30 = d$Z_normative_est_count_30,
+  normative_est_count_30_IA = d$Z_normative_est_count_30_IA,
+  # disaster_est_count_30 = d$Z_disaster_est_count_30,
+  disaster_est_count_30_IA = d$Z_disaster_est_count_30_IA,
+  # allhazards_H9a_sev_exposure_30 = d$Z_allhazards_H9a_sev_exposure_30,
+  allhazards_H9a_sev_exposure_30_IA = d$Z_allhazards_H9a_sev_exposure_30_IA,
+  # allhazards_nonfd_sev_exposure2_30 = d$Z_allhazards_nonfd_sev_exposure2_30,
+  allhazards_nonfd_sev_exposure2_30_IA = d$Z_allhazards_nonfd_sev_exposure2_30_IA
+)
+
+
 threats2<-na.omit(threats)
 
 library(nFactors)
@@ -150,7 +198,7 @@ nS <- nScree(x=ev$values, aparallel=ap$eigen$qpea)
 plotnScree(nS)
 
 # Maximum Likelihood Factor Analysis
-fit <- factanal(threats2, factors=2, rotation="varimax")
+fit <- factanal(threats2, factors=4, rotation="varimax")
 print(fit, digits=2, cutoff=.3, sort=TRUE)
 load <- fit$loadings[,1:2] 
 plot(load,type="n") # set up plot 

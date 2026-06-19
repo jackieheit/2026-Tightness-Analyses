@@ -13,7 +13,7 @@ id <- id %>%
   select(OWC, SCCS.ID, minerva_id, eHRAF.Name, PSF.Cluster, EA.ID)
 
 
-tl <- read_csv(path) %>%
+tl <- tl %>%
   mutate(
     OWC = str_trim(OWC, side = c("both"))
   )
@@ -22,19 +22,44 @@ tl <- read_csv(path) %>%
 test <- tl %>%
   select(OWC, SCCS)
 
-law_cols <- c("General_TL1_avg_final","General_TL2_avg_final",
-                "General_TL3_avg_final","General_TL4_avg_final",
-                "General_TL5_avg_final")  
+tl1_cols <- c("General_TL1_avg_final","Soc_TL1_avg_final",
+                "Gender_TL1_avg_final","Mar_TL1_avg_final",
+                "Sex_TL1_avg_final", "FM_TL1_avg_final") 
+
+domain_lookup <- tibble(
+  Domain_var = c(tl1_cols, "Ov_tl_avg", "General_TL5B_avg_final"),
+  Domain_name = c(
+    "law",
+    "social",
+    "gender",
+    "marriage",
+    "sex",
+    "funeral",
+    "overall",
+    "gestalt"
+  ),
+  Domain_num = 1:8
+)
+
 
 tl1 <- tl %>%
-  select(OWC, SCCS, all_of(law_cols))
+  select(OWC, SCCS, all_of(tl1_cols), General_TL5B_avg_final)
 
-tl1_id <-  full_join(id, tl1, by = c("OWC")) %>%
-  select(-SCCS)
-
-tl1_long <- pivot_longer(tl1_id, all_of(law_cols), values_to = "TL1", names_to = "Domain") %>%
+tl1_id <- full_join(id, tl1, by = "OWC") %>%
+  select(-SCCS) %>%
   mutate(
-    Domain = as.numeric(str_extract(Domain, "(?<=TL)\\d"))
+    Ov_tl_avg = rowMeans(across(all_of(tl1_cols)), na.rm = TRUE),
+    Ov_tl_avg = if_else(is.nan(Ov_tl_avg), NA_real_, Ov_tl_avg)
   )
 
+tl1_long <- tl1_id %>%
+  pivot_longer(
+    cols = all_of(domain_lookup$Domain_var),
+    values_to = "TL1",
+    names_to = "Domain_var"
+  ) %>%
+  left_join(domain_lookup, by = "Domain_var")
+
+
 write.csv(tl1_long, "data/tl1_long.csv", row.names = FALSE)
+

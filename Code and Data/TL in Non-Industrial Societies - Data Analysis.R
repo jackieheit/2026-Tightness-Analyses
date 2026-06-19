@@ -1,5 +1,3 @@
-
-
 library(lme4)
 library(lmerTest) 
 library(ggplot2)
@@ -111,6 +109,35 @@ summary(lmer(ZTL1~famine_index+(1|sccsn)+(1|Family),data=m))
 summary(lmer(ZTL1~Zoth+(1|sccsn),data=m)) 
 summary(lmer(ZTL1~Zoth+(1|sccsn)+(1|Family),data=m)) 
 
+#    New Hazard vars
+# Normative hazards
+summary(lmer(ZTL1 ~ Z_normative_est_count_30 + (1 | sccsn), data = m))
+summary(lmer(ZTL1 ~ Z_normative_est_count_30 + (1 | sccsn) + (1 | Family), data = m))
+
+summary(lmer(ZTL1 ~ Z_normative_est_count_30_IA + (1 | sccsn), data = m))
+summary(lmer(ZTL1 ~ Z_normative_est_count_30_IA + (1 | sccsn) + (1 | Family), data = m))
+
+# Disaster hazards
+summary(lmer(ZTL1 ~ Z_disaster_est_count_30 + (1 | sccsn), data = m))
+summary(lmer(ZTL1 ~ Z_disaster_est_count_30 + (1 | sccsn) + (1 | Family), data = m))
+
+summary(lmer(ZTL1 ~ Z_disaster_est_count_30_IA + (1 | sccsn), data = m))
+summary(lmer(ZTL1 ~ Z_disaster_est_count_30_IA + (1 | sccsn) + (1 | Family), data = m))
+
+# Food-destroying hazard severity
+summary(lmer(ZTL1 ~ Z_allhazards_H9a_sev_exposure_30 + (1 | sccsn), data = m)) # marginally significant
+summary(lmer(ZTL1 ~ Z_allhazards_H9a_sev_exposure_30 + (1 | sccsn) + (1 | Family), data = m))
+
+summary(lmer(ZTL1 ~ Z_allhazards_H9a_sev_exposure_30_IA + (1 | sccsn), data = m))
+summary(lmer(ZTL1 ~ Z_allhazards_H9a_sev_exposure_30_IA + (1 | sccsn) + (1 | Family), data = m))
+
+# Non-food hazard severity
+summary(lmer(ZTL1 ~ Z_allhazards_nonfd_sev_exposure2_30 + (1 | sccsn), data = m))
+summary(lmer(ZTL1 ~ Z_allhazards_nonfd_sev_exposure2_30 + (1 | sccsn) + (1 | Family), data = m))
+
+summary(lmer(ZTL1 ~ Z_allhazards_nonfd_sev_exposure2_30_IA + (1 | sccsn), data = m))
+summary(lmer(ZTL1 ~ Z_allhazards_nonfd_sev_exposure2_30_IA + (1 | sccsn) + (1 | Family), data = m))
+
 ##Population Density
 summary(lmer(ZTL1~Zv1720_poppress+(1|sccsn),data=m))
 summary(lmer(ZTL1~Zv1720_poppress+(1|sccsn)+(1|Family),data=m))
@@ -168,7 +195,46 @@ summary(lmer(ZTL1~Zpathogensum+longitude+latitude+horticulture+pastoralism + hun
 summary(lmer(ZTL1~Zv773_rev+longitude+latitude+horticulture+pastoralism + huntergatherer + (1|sccsn),data=m))
 summary(lmer(ZTL1~Zv774_rev+longitude+latitude+horticulture+pastoralism + huntergatherer + (1|sccsn),data=m))
 summary(lmer(ZTL1~famine_index+longitude+latitude+horticulture+pastoralism + huntergatherer + (1|sccsn),data=m))
+
 summary(lmer(ZTL1~Zoth+longitude+latitude+horticulture+pastoralism + huntergatherer + (1|sccsn),data=m))
+
+summary(lmer(ZTL1~Zoth+longitude+latitude+horticulture+pastoralism + huntergatherer + (1|sccsn),data=m))
+
+# new hazard vars
+summary(lmer(ZTL1 ~ Z_normative_est_count_30 + longitude + latitude +
+               horticulture + pastoralism + huntergatherer + (1 | sccsn),
+             data = m))
+
+summary(lmer(ZTL1 ~ Z_normative_est_count_30_IA + longitude + latitude +
+               horticulture + pastoralism + huntergatherer + (1 | sccsn),
+             data = m))
+
+summary(lmer(ZTL1 ~ Z_disaster_est_count_30 + longitude + latitude +
+               horticulture + pastoralism + huntergatherer + (1 | sccsn),
+             data = m))
+
+summary(lmer(ZTL1 ~ Z_disaster_est_count_30_IA + longitude + latitude +
+               horticulture + pastoralism + huntergatherer + (1 | sccsn),
+             data = m))
+
+summary(lmer(ZTL1 ~ Z_allhazards_H9a_sev_exposure_30 + longitude + latitude +
+               horticulture + pastoralism + huntergatherer + (1 | sccsn),
+             data = m))
+
+# normative_count is marginally significant
+summary(lmer(ZTL1 ~ Z_allhazards_H9a_sev_exposure_30_IA + Z_normative_est_count_30_IA + longitude + latitude +
+               horticulture + pastoralism + huntergatherer + (1 | sccsn),
+             data = m))
+
+summary(lmer(ZTL1 ~ Z_allhazards_nonfd_sev_exposure2_30 + longitude + latitude +
+               horticulture + pastoralism + huntergatherer + (1 | sccsn),
+             data = m))
+
+summary(lmer(ZTL1 ~ Z_allhazards_nonfd_sev_exposure2_30_IA + longitude + latitude +
+               horticulture + pastoralism + huntergatherer + (1 | sccsn),
+             data = m))
+
+
 summary(lmer(ZTL1~Zv1720_poppress+longitude+latitude+horticulture+pastoralism + huntergatherer + (1|sccsn),data=m))
 
 #### structural equation model #####
