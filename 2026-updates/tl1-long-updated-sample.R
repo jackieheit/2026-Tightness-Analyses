@@ -24,19 +24,18 @@ test <- tl %>%
 
 tl1_cols <- c("General_TL1_avg_final","Soc_TL1_avg_final",
                 "Gender_TL1_avg_final","Mar_TL1_avg_final",
-                "Sex_TL1_avg_final", "FM_TL1_avg_final") 
+                "Sex_TL1_avg_final", "FM_TL1_avg_final")
+tl2_cols <- c("General_TL")
 
 domain_lookup <- tibble(
-  Domain_var = c(tl1_cols, "Ov_tl_avg", "General_TL5B_avg_final"),
+  Domain_var = c(tl1_cols),
   Domain_name = c(
     "law",
     "social",
     "gender",
     "marriage",
     "sex",
-    "funeral",
-    "overall",
-    "gestalt"
+    "funeral"
   ),
   Domain_num = 1:8
 )
