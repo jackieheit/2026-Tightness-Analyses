@@ -34,6 +34,9 @@ tl3_cols <- c("General_TL3_avg_final","Soc_TL3_avg_final",
 tl4_cols <- c("General_TL4_avg_final","Soc_TL4_avg_final",
               "Gender_TL4_avg_final","Mar_TL4_avg_final",
               "Sex_TL4_avg_final", "FM_TL4_avg_final")
+tl5_cols <- c("General_TL5_avg_final","Soc_TL5_avg_final",
+              "Gender_TL5_avg_final","Mar_TL5_avg_final",
+              "Sex_TL5_avg_final", "FM_TL5_avg_final")
 
 
 
@@ -62,3 +65,27 @@ tl_long <- tl %>%
 
 write.csv(tl_long, "data/tl_long.csv", row.names = FALSE)
 
+# data analysis
+hz <- read_csv("../../minerva/Hazards/Datasets/DT-hzcats-society-level.csv")
+
+sh <- read_csv("../../2026-Sharing-Analyses/sharing-dataset-for-analysis.csv")
+sh <- sh %>% select(ID, allhazards_nonfd_sev_exposure2_30, allhazards_nonfd_sev_exposure2_30_IA)
+
+hz <- full_join(hz, sh, by = c("ID"))
+# remove outliers identified in cluster analysis  
+
+hz <- hz %>% filter(ID != 73 & ID != 218)
+
+hz <- hz %>%
+  select(ID, normative_est_count_30, normative_est_count_30_IA, disaster_est_count_30, disaster_est_count_30_IA, allhazards_H9a_sev_exposure_30, allhazards_H9a_sev_exposure_30_IA, 
+         allhazards_nonfd_sev_exposure2_30, allhazards_nonfd_sev_exposure2_30_IA)
+
+hz_vars <- c("normative_est_count_30", "normative_est_count_30_IA", "disaster_est_count_30", "disaster_est_count_30_IA", "allhazards_H9a_sev_exposure_30", "allhazards_H9a_sev_exposure_30_IA", 
+             "allhazards_nonfd_sev_exposure2_30", "allhazards_nonfd_sev_exposure2_30_IA")
+
+# Disaster hazards
+summary(lmer(ZTL1 ~ Z_disaster_est_count_30 + (1 | sccsn), data = m))
+summary(lmer(ZTL1 ~ Z_disaster_est_count_30 + (1 | sccsn) + (1 | Family), data = m))
+
+summary(lmer(ZTL1 ~ Z_disaster_est_count_30_IA + (1 | sccsn), data = m))
+summary(lmer(ZTL1 ~ Z_disaster_est_count_30_IA + (1 | sccsn) + (1 | Family), data = m))
