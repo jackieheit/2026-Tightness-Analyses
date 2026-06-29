@@ -1,0 +1,150 @@
+---
+title: "tightness-bayes-multilevel-model"
+format: html
+---
+
+```{r}
+library(tidyverse)
+library(brms)
+```
+
+```{r}
+ds_FA <- read_csv("../../2026-Sharing-Analyses/sharing-dataset-for-analysis.csv")
+
+tl_long <- read_csv("../2026-updates/data/tl_long.csv")
+
+ds <- inner_join(ds_FA, tl_long, by = c("OWC"))
+
+hz_cat <- read_csv("../../minerva/Hazards/Datasets/DT-hzcats-society-level.csv") %>%
+  select(ID, allhazards_est_count_30, allhazards_sev_exposure_30, allhazards_sev_exposure_30_IA, disaster_est_count_30, disaster_est_count_30_IA)
+
+ds <- full_join(ds, hz_cat, by = c("minerva_id" = "ID")) %>%
+  filter(ID != 73 & ID != 218)
+```
+
+```{r}
+tl <- ds %>%
+  mutate(
+    normative_ind_IA = if_else(normative_est_count_30_IA > 0, 1, 0),
+    normative_ind_IA = factor(normative_ind_IA),
+    allhazards_z = as.numeric(scale(allhazards_est_count_30_IA)),
+    z_allhazards_sev_exposure_30 = as.numeric(scale(allhazards_sev_exposure_30)),
+    z_allhazards_nonfd_sev_exposure2_30 = as.numeric(scale(allhazards_nonfd_sev_exposure2_30)),
+    z_normative_est_count_30 = as.numeric(scale(normative_est_count_30)),
+    z_disaster_est_count_30 = as.numeric(scale(disaster_est_count_30))
+  )
+
+tl_int <- tl %>%
+  drop_na(Z_TL5, allhazards_est_count_30_IA, normative_ind_IA, ea033)
+
+mod_tl_allhaz_norm <- brm(
+  formula = Z_TL5 ~ allhazards_z * normative_ind_IA + mo(ea033) + (1 | minerva_id),
+  data = tl_int,
+  family = gaussian(),
+  chains = 4,
+  iter = 2000,
+  warmup = 1000,
+  prior = c(
+    prior(normal(0, 1), class = "b"),
+    prior(student_t(3, 0, 2.5), class = "Intercept"),
+    prior(exponential(1), class = "sd")
+  ),
+  seed = 123
+)
+```
+
+```{r}
+summary(mod_tl_allhaz_norm)
+
+conditional_effects(
+  mod_tl_allhaz_norm,
+  effects = "allhazards_z:normative_ind_IA"
+)
+
+hypothesis(mod_tl_allhaz_norm, "allhazards_z < 0")
+hypothesis(mod_tl_allhaz_norm, "allhazards_z + allhazards_z:normative_ind_IA1 > 0")
+hypothesis(mod_tl_allhaz_norm, "allhazards_z:normative_ind_IA1 > 0")
+```
+
+```{r}
+tl_ov <- tl %>%
+  drop_na(Z_TL5, z_allhazards_nonfd_sev_exposure2_30, z_allhazards_nonfd_sev_exposure2_30, z_normative_est_count_30, z_disaster_est_count_30)
+
+mod_tl5_1 <- brm(
+  formula = Z_TL5 ~ 
+    z_allhazards_sev_exposure_30 +
+    z_allhazards_nonfd_sev_exposure2_30 +
+    z_normative_est_count_30 +
+    z_disaster_est_count_30 +
+    mo(ea033) +
+    (1 | minerva_id),
+  data = tl_ov,
+  family = gaussian(),
+  chains = 4,
+  iter = 2000,
+  warmup = 1000,
+  prior = c(
+    prior(normal(0, 1), class = "b"),
+    prior(student_t(3, 0, 2.5), class = "Intercept"),
+    prior(exponential(1), class = "sd"),
+    prior(exponential(1), class = "sigma")
+  ),
+  seed = 123
+)
+
+summary(mod_tl5_1)
+```
+```{r}
+set.seed=1234
+formula1 = Z_TL5 ~ 
+    z_allhazards_sev_exposure_30 +
+    # z_allhazards_nonfd_sev_exposure2_30 +
+    ea033 +
+    (z_allhazards_sev_exposure_30 | minerva_id)
+get_prior(formula1,data=tl_ov)
+prior1<-c(
+  prior(normal(2.5,.8),class="Intercept")+
+  prior(normal(.5,1.5),class="sd")+
+  prior(normal(2.5,.8),class="sigma")+
+  prior(lkj(2),class="cor")+
+  prior(normal(0,.4),class="b")
+  )
+prior_sim<-brm(formula1,data=tl_ov, family = gaussian(link="identity"),prior=prior1,sample_prior="only")
+conditional_effects(prior_sim,effects="z_allhazards_sev_exposure_30",method="posterior_predict")
+```
+```{r}
+set.seed(2345)
+mod1<-brm(formula1,data=tl_ov, family = gaussian(link="identity"),prior=prior1,
+  chains = 4,
+  iter = 4000,
+  warmup = 2000,)
+summary(mod1)
+plot(mod1)
+```
+
+
+
+```{r}
+mod_tl5_2 <- brm(
+  formula = Z_TL5 ~ 
+    z_allhazards_sev_exposure_30 +
+    # z_allhazards_nonfd_sev_exposure2_30 +
+    ea033 +
+    (z_allhazards_sev_exposure_30 | minerva_id),
+  data = tl_ov,
+  family = gaussian(link = "identity"),
+  chains = 4,
+  iter = 2000,
+  warmup = 1000,
+  prior = c(
+    prior(normal(0, 1), class = "b"),
+    prior(student_t(3, 0, 2.5), class = "Intercept"),
+    prior(exponential(1), class = "sd"),
+    prior(exponential(1), class = "sigma")
+  ),
+  seed = 123
+)
+
+summary(mod_tl5_2)
+```
+
